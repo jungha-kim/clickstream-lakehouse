@@ -1,0 +1,11 @@
+# Databricks temp
+databricks-driver/
+.ipynb_checkpoints/
+*.dbc
+
+# Spark checkpoints / Delta files (커밋 X)
+delta/
+Checkpoints/
+
+# Python 가상환경
+venv/
