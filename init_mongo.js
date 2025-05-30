@@ -1,0 +1,6 @@
+db = db.getSiblingDB("demo");
+db.users.insertMany([
+  { user_id: "U1", name: "Alice", age: 30 },
+  { user_id: "U2", name: "Bob",   age: 25 },
+  { user_id: "U3", name: "Carol", age: 28 }
+]);
